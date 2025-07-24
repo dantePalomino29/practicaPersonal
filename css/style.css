@@ -243,3 +243,27 @@ li {
   font-size: 3rem;
   line-height: 100vh;
 }
+
+/*===============TARGET====================*/
+
+.enlacet {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 25px;
+  text-decoration: none;
+  background-color: aqua;
+  text-align: center;
+  padding: 10px;
+}
+
+#objetivo {
+  width: 190px;
+  height: 190px;
+  background-color: aqua;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#objetivo:target {
+  margin-left: 150px;
+}
