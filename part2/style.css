@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*=============pseudoclase==================*/
+
+.box1,
+.box {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.box {
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 100px;
+}
+
+.box1 p {
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 100px;
+}
+
+.contenedor2 {
+  border: 2px solid black;
+  width: 50%;
+  margin: 5px;
+}
+
+.ultimo {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: aquamarine;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+div:first-of-type {
+  /*afecta a card porq es el primero y unico en su tipo*/
+  background-color: rgb(245, 141, 141);
+}
+
+div:last-child {
+  background-color: rgb(255, 255, 255);
+}
+
+div :nth-first-child(2) {
+  background-color: yellowgreen;
+}
+
+.box:nth-of-type(odd) {
+  background-color: chocolate;
+}
+
+/*============pseudoelemento==============*/
+
+.contenedorCard {
+  height: 90vh;
+  background-color: rgb(236, 152, 197);
+  padding-top: 100px;
+}
+
+.card {
+  width: 320px;
+  height: 250px;
+  margin: 0px auto;
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: -20px -20px 0px 0px rgba(255, 255, 255, 0.425);
+}
+
+.title__card {
+  border-bottom: 2px solid black;
+  margin-bottom: 7px;
+  color: rgb(96, 94, 192);
+}
