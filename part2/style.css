@@ -46,16 +46,16 @@
   margin: 10px;
 }
 
-div:first-of-type {
+div.box:first-of-type {
   /*afecta a card porq es el primero y unico en su tipo*/
-  background-color: rgb(245, 141, 141);
+  background-color: rgb(255, 150, 150);
 }
 
-div:last-child {
+div.box:last-child {
   background-color: rgb(255, 255, 255);
 }
 
-div :nth-first-child(2) {
+div.box :nth-first-child(2) {
   background-color: yellowgreen;
 }
 
@@ -63,10 +63,10 @@ div :nth-first-child(2) {
   background-color: chocolate;
 }
 
-/*============pseudoelemento==============*/
+/*============pseudoelemento1==============*/
 
 .contenedorCard {
-  height: 90vh;
+  height: 75vh;
   background-color: rgb(236, 152, 197);
   padding-top: 100px;
 }
@@ -78,6 +78,7 @@ div :nth-first-child(2) {
   padding: 22px;
   border-radius: 10px;
   box-shadow: -20px -20px 0px 0px rgba(255, 255, 255, 0.425);
+  background-color: white;
 }
 
 .title__card {
@@ -85,3 +86,33 @@ div :nth-first-child(2) {
   margin-bottom: 7px;
   color: rgb(96, 94, 192);
 }
+
+/*============pseudoelemento2==============*/
+
+.parrafo__card::before,
+.parrafo__card::after {
+  content: url(/part1/img/sword.png);
+}
+
+/*============POSITION RELATIVE==============*/
+
+.contenedorP {
+  width: 90%px;
+  height: 530px;
+  margin: 12px;
+  padding: 25px;
+  border: 2px solid red;
+
+}
+
+.boxP {
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+  background: pink;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+}
+

@@ -40,5 +40,46 @@
         </p>
       </div>
     </div>
+    <!--============POSITION RELATIVE====================-->
+
+    <div class="contenedorP">
+      <div class="boxP static">Static</div>
+      <p>
+        Los elementos HTML se posicionan de forma estática de forma
+        predeterminada. Los elementos posicionados estáticamente no se ven
+        afectados por las propiedades superior, inferior, izquierda y derecha.
+        Un elemento con position: static;no se posiciona de ninguna manera
+        especial; siempre se posiciona de acuerdo con el flujo normal de la
+        página:
+      </p>
+      <div class="boxP relative">Relative</div>
+      <p>
+        Un elemento position: relative;se posiciona en relación a su posición
+        normal. Al configurar las propiedades superior, derecha, inferior e
+        izquierda de un elemento con posición relativa, este se ajustará de su
+        posición normal. El resto del contenido no se ajustará para encajar en
+        el espacio que deje el elemento.
+      </p>
+      <div class="boxP absolute">Absolute</div>
+      <p>
+        Un elemento position: absolute;se posiciona en relación con el ancestro
+        posicionado más cercano (en lugar de estar posicionado en relación con
+        la ventana gráfica, como fijo). Sin embargo; si un elemento posicionado
+        absolutamente no tiene antecesores posicionados, utiliza el cuerpo del
+        documento y se mueve junto con el desplazamiento de la página. Nota: Los
+        elementos con posición absoluta se eliminan del flujo normal y pueden
+        superponerse a otros elementos.
+      </p>
+      <div class="boxP fixed">Fixed</div>
+      <p>
+        Un elemento position: fixed;se posiciona con respecto a la ventana
+        gráfica, lo que significa que permanece en la misma posición incluso al
+        desplazarse por la página. Las propiedades superior, derecha, inferior e
+        izquierda se utilizan para posicionar el elemento. Un elemento fijo no
+        deja un espacio en la página donde normalmente habría estado ubicado.
+        Observe el elemento fijo en la esquina inferior derecha de la página.
+        Este es el CSS utilizado:
+      </p>
+    </div>
   </body>
 </html>
